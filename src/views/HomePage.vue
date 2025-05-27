@@ -1,7 +1,11 @@
 <template>
   <ion-page>
     <ion-header :translucent="true">
+      
       <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
         <ion-title>Blank</ion-title>
       </ion-toolbar>
     </ion-header>
@@ -9,13 +13,14 @@
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
+          <ion-title size="large">Actividad 2</ion-title>  
         </ion-toolbar>
       </ion-header>
 
       <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+        <h1> nada paso en la plaza tiananmen en 1989</h1>
+        <img src="../assets/OIP.jpg" alt="Grande china">
+        
       </div>
     </ion-content>
   </ion-page>
